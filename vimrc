@@ -12,6 +12,6 @@ filetype indent on
 " Load custom settings
 source ~/.vim/init/color.vim
 source ~/.vim/init/plugins.vim
-" source ~/.vim/init/functions.vim
+"source ~/.vim/init/functions.vim
 source ~/.vim/init/mappings.vim
 source ~/.vim/init/settings.vim

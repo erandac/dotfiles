@@ -25,13 +25,13 @@ if &diff
 	set wrap
 endif
 set diffopt+=iwhite
-let &scrolloff=999-&scrolloff
+"let &scrolloff=999-&scrolloff
 set smartcase
 set relativenumber
 set nowritebackup
 
-set completeopt=menu
-set mousemodel=popup
-set backspace=2
+"set completeopt=menu
+"set mousemodel=popup
+"set backspace=2
 set number
 set nocompatible
