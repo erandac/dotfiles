@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/usr/lib'
 let g:netrw_dirhist_2='/Users/erandac/.vim'
 let g:netrw_dirhist_3='/Users/erandac/.tmux'
+let g:netrw_dirhist_4='/Users/erandac/.vim'
