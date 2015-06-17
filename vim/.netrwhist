@@ -1,2 +1,12 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =0
+=======
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/usr/lib'
+let g:netrw_dirhist_2='/Users/erandac/.vim'
+let g:netrw_dirhist_3='/Users/erandac/.tmux'
+let g:netrw_dirhist_4='/Users/erandac/.vim'
+let g:netrw_dirhist_5='/Users/erandac/Development/Anopio/event_logger'
+let g:netrw_dirhist_6='/Users/erandac/Development/Anopio/event_logger/service'
+>>>>>>> a7d52672c01896511dfd08ab1de7c78c84622f53
