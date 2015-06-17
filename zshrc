@@ -1,3 +1,4 @@
+export TERM=xterm-256color
 source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
 source ~/.zsh/vars.zsh
