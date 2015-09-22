@@ -42,3 +42,6 @@ setopt PROMPT_SUBST
 
 unsetopt MENU_COMPLETE
 setopt AUTO_MENU
+
+set bell-style visible
+
