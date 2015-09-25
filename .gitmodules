@@ -6,14 +6,3 @@
     path = tmux/plugins/tpm
     url = https://github.com/tmux-plugins/tpm
 
-[submodule "tmux/plugins/tmux-resurrect"]
-    path = tmux/plugins/tmux-resurrect
-    url = https://github.com/tmux-plugins/tmux-resurrect
-
-[submodule "vim/plugged/nerdtree"]
-    path = vim/plugged/nerdtree
-    url = https://github.com/scrooloose/nerdtree
-
-[submodule "vim/plugged/python-mode"]
-    path = vim/plugged/python-mode
-    url = https://github.com/klen/python-mode
