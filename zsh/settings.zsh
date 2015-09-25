@@ -45,3 +45,5 @@ setopt AUTO_MENU
 
 set bell-style visible
 
+# disable ctl-s thing
+stty -ixon
