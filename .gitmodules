@@ -13,3 +13,7 @@
 [submodule "vim/plugged/nerdtree"]
     path = vim/plugged/nerdtree
     url = https://github.com/scrooloose/nerdtree
+
+[submodule "vim/plugged/python-mode"]
+    path = vim/plugged/python-mode
+    url = https://github.com/klen/python-mode
