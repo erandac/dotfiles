@@ -25,3 +25,16 @@
 [submodule "vim/bundle/syntastic"]
     path = vim/bundle/syntastic
     url = https://github.com/scrooloose/syntastic.git
+ 
+[submodule "vim/bundle/vim-easymotion"]
+    path = vim/bundle/vim-easymotion
+    url = https://github.com/easymotion/vim-easymotion.git
+
+[submodule "vim/bundle/vim-surround"]
+    path = vim/bundle/vim-surround
+    url = https://github.com/tpope/vim-surround.git
+
+[submodule "vim/bundle/vim-tmux-navigator"]
+    path = vim/bundle/vim-tmux-navigator
+    url = https://github.com/christoomey/vim-tmux-navigator.git
+
