@@ -1,0 +1,4 @@
+pane	0	1	:Vim	1	:*	1	:/Users/erandac/Development/Anopio/python	1	Vim	:/usr/local/Cellar/macvim/7.4-77/MacVim.app/Contents/MacOS/Vim
+pane	0	1	:Vim	1	:*	2	:/Users/erandac/github/dotfiles.git/vim/init	0	zsh	:
+window	0	1	1	:*	1deb,195x40,0,0[195x30,0,0,0,195x9,0,31,1]
+state	0	

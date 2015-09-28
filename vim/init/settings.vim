@@ -39,4 +39,5 @@ set nocompatible
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
+" avoid saving blank panes that use by other plugins
+set sessionoptions-=blank
