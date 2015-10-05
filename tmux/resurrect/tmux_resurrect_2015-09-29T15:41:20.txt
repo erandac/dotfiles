@@ -1,0 +1,15 @@
+pane	0	1	:vim	0	: 	1	:/home/erandac/Development/python/python	1	vim	:vim
+pane	0	1	:vim	0	: 	2	:/home/erandac/Development/python/python	0	zsh	:
+pane	0	2	:aws1	1	:*	1	:/home/erandac	0	ssh	:ssh aws1
+pane	0	2	:aws1	1	:*	2	:/home/erandac	1	zsh	:
+pane	0	3	:aws2	0	:-	1	:/home/erandac	1	ssh	:ssh aws2
+pane	0	4	:aws3	0	: 	1	:/home/erandac	1	zsh	:
+pane	0	5	:wkr1	0	: 	1	:/home/erandac	1	zsh	:
+pane	0	6	:staging	0	: 	1	:/home/erandac	1	zsh	:
+window	0	1	0	: 	88cf,239x59,0,0[239x49,0,0,0,239x9,0,50,2]
+window	0	2	1	:*	731b,239x59,0,0{119x59,0,0,1,119x59,120,0,10}
+window	0	3	0	:-	d5e0,239x59,0,0,3
+window	0	4	0	: 	d5e1,239x59,0,0,4
+window	0	5	0	: 	d5e2,239x59,0,0,5
+window	0	6	0	: 	d5e3,239x59,0,0,6
+state	0	
