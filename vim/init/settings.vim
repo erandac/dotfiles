@@ -7,7 +7,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 let g:Powerline_symbols = 'fancy'
 set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
+"set term=xterm-256color
 set termencoding=utf-8
 set dict=/usr/share/dict/words
 set cursorline
@@ -17,7 +17,7 @@ set incsearch
 set wildmenu
 syntax enable
 set synmaxcol=0
-set term=screen-256color
+"set term=screen-256color
 set display=uhex
 set shortmess=aAIsT
 set cmdheight=2
@@ -41,3 +41,7 @@ set shiftwidth=4
 set expandtab
 " avoid saving blank panes that use by other plugins
 set sessionoptions-=blank
+
+" python pep8 max width indicater
+
+autocmd FileType python set colorcolumn=120

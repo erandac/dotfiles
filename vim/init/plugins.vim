@@ -23,6 +23,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'python-rope/ropevim'
 Plugin 'hdima/python-syntax'
+Plugin 'bling/vim-airline'
 
 
 " plugin from http://vim-scripts.org/vim/scripts.html
@@ -149,7 +150,7 @@ map <Leader>h <Plug>(easymotion-linebackward)
 "
 let g:auto_save = 1 
 let g:auto_save_in_insert_mode = 0
-let g:auto_save_postsave_hook = 'SyntasticCheck'
+"let g:auto_save_postsave_hook = 'SyntasticCheck'
 let g:auto_save_no_updatetime = 1 
 
 "===================== ropevim ========================
@@ -163,3 +164,10 @@ let g:jedi#use_tabs_not_buffers = 1
 
 "================ python-syntax ===============
 let python_highlight_all = 1
+
+
+"============== airline ================= 
+"
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
