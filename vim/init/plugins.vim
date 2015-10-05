@@ -14,12 +14,15 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'kien/ctrlp.vim'
-Plugin 'klen/python-mode'
+"Plugin 'klen/python-mode'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-surround'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'mileszs/ack.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'python-rope/ropevim'
+Plugin 'hdima/python-syntax'
 
 
 " plugin from http://vim-scripts.org/vim/scripts.html
@@ -83,39 +86,41 @@ let g:ctrlp_custom_ignore = {
 " ]]            Jump on next class or function (normal, visual, operator modes)
 " [M            Jump on previous class or method (normal, visual, operator modes)
 " ]M            Jump on next class or method (normal, visual, operator modes)
-let g:pymode_rope = 1
-let g:pymode_rope_autoimport = 1
-
-" Documentation
-let g:pymode_doc = 1
-let g:pymode_doc_key = 'K'
-
-"Linting
-let g:pymode_lint = 0
-let g:pymode_lint_on_fly = 0
-let g:pymode_options_max_line_length=120
-"let g:pymode_lint_ignore = "C0111"
-
-
-" Auto check on save
-let g:pymode_lint_write = 1
-
-" Support virtualenv
-let g:pymode_virtualenv = 1
-
-" Enable breakpoints plugin
-let g:pymode_breakpoint = 1
-let g:pymode_breakpoint_bind = '<leader>b'
-
-" syntax highlighting
-let g:pymode_syntax = 1
-let g:pymode_syntax_all = 1
-let g:pymode_syntax_indent_errors = g:pymode_syntax_all
-let g:pymode_syntax_space_errors = g:pymode_syntax_all
-
-" Don't autofold code
-let g:pymode_folding = 0
-
+"
+"
+"let g:pymode_rope = 0
+"let g:pymode_rope_autoimport = 0
+"
+"" Documentation
+"let g:pymode_doc = 1
+"let g:pymode_doc_key = 'K'
+"
+""Linting
+"let g:pymode_lint = 0
+"let g:pymode_lint_on_fly = 0
+"let g:pymode_options_max_line_length=120
+""let g:pymode_lint_ignore = "C0111"
+"
+"
+"" Auto check on save
+"let g:pymode_lint_write = 1
+"
+"" Support virtualenv
+"let g:pymode_virtualenv = 1
+"
+"" Enable breakpoints plugin
+"let g:pymode_breakpoint = 1
+"let g:pymode_breakpoint_bind = '<leader>b'
+"
+"" syntax highlighting
+"let g:pymode_syntax = 1
+"let g:pymode_syntax_all = 1
+"let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+"let g:pymode_syntax_space_errors = g:pymode_syntax_all
+"
+"" Don't autofold code
+"let g:pymode_folding = 0
+"
 
 "=============== easy mortion =============
 "
@@ -147,4 +152,14 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_postsave_hook = 'SyntasticCheck'
 let g:auto_save_no_updatetime = 1 
 
+"===================== ropevim ========================
+"
+let ropevim_vim_completion = 0
+let ropevim_enable_shortcuts = 0
 
+"==================== jedi-vim =======================
+"
+let g:jedi#use_tabs_not_buffers = 1
+
+"================ python-syntax ===============
+let python_highlight_all = 1

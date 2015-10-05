@@ -38,3 +38,14 @@
     path = vim/bundle/vim-tmux-navigator
     url = https://github.com/christoomey/vim-tmux-navigator.git
 
+[submodule "vim/bundle/jedi-vim"]
+    path = vim/bundle/jedi-vim
+    url = https://github.com/davidhalter/jedi-vim.git
+
+[submodule "vim/bundle/python-syntax"]
+    path = vim/bundle/python-syntax
+    url = https://github.com/hdima/python-syntax.git
+
+[submodule "vim/bundle/ropevim"]
+    path = vim/bundle/ropevim
+    url = https://github.com/python-rope/ropevim.git
